@@ -1,17 +1,21 @@
 {% load static %}
 
+
+<!DOCTYPE html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Поиск научных публикаций</title>
     <link rel="stylesheet" href="{% static 'deps/css/home.css' %}">
-
 </head>
 <body>
-<h1>Contextual Search</h1>
-<div class="auth-links">
-    <a href="/login">Вход</a> | <a href="/register">Регистрация</a>
-</div>
+<header>
+    <h1>Contextual Search</h1>
+    <div class="auth-links">
+        <a href="/login">Вход</a> | <a href="/register">Регистрация</a>
+    </div>
+</header>
 
 <div class="layout">
     <nav class="sidebar">
@@ -24,72 +28,136 @@
         </ul>
     </nav>
 
-    <div class="container">
-        <form method="post" id="searchForm">
+    <main class="container">
+        <form method="post" id="searchForm" class="search-form">
             {% csrf_token %}
-            {{ form.as_p }} <!-- Рендеринг формы Django -->
-            <button type="submit">Поиск</button>
+            <div class="form-fields">
+                {{ form.as_p }}
+            </div>
+            <button type="submit" class="search-button">Поиск</button>
         </form>
 
-        {% if results %}
+        {% if articles %}
         <div class="results-container">
-            <h2 class="results-title">Результаты поиска:</h2>
+            <h2 class="results-title">Результаты поиска: "{{ search_query }}"</h2>
+            <p class="results-count">Найдено публикаций: {{ total_results }}</p>
 
-            {% for article in results %}
-            <div class="article-card">
-                <h3 class="article-title">
-                    {% if article.link %}
-                    <a href="{{ article.link }}" target="_blank" class="article-link">
-                        {{ article.title|default:"Без названия" }}
-                    </a>
-                    {% else %}
-                    {{ article.title|default:"Без названия" }}
-                    {% endif %}
-                </h3>
+            <div class="articles-list">
+                {% for article in articles %}
+                <article class="article-card">
+                    <header>
+                        <h3 class="article-title">
+                            {% if article.link %}
+                            <a href="{{ article.link }}" target="_blank" class="article-link">
+                                {{ article.title|default:"Без названия" }}
+                            </a>
+                            {% else %}
+                            {{ article.title|default:"Без названия" }}
+                            {% endif %}
+                        </h3>
+                    </header>
 
-                <div class="article-meta">
-                    {% if article.authors %}
-                    <span class="meta-item authors">Авторы: {{ article.authors|join:", " }}</span>
-                    {% else %}
-                    <span class="meta-item authors">Авторы: Не указаны</span>
-                    {% endif %}
-
-                    {% if article.year %}
-                    <span class="meta-item year">Год: {{ article.year }}</span>
-                    {% else %}
-                    <span class="meta-item year">Год: -</span>
-                    {% endif %}
-                </div>
-
-                <div class="article-abstract">
-                    <p>
-                        {% if article.abstract %}
-                        {{ article.abstract|linebreaksbr }}
-                        {% else %}
-                        Аннотация не предоставлена
+                    <div class="article-meta">
+                        {% if article.authors %}
+                        <div class="meta-item authors">
+                            <span class="meta-label">Авторы:</span>
+                            <span class="meta-value">{{ article.authors|join:", " }}</span>
+                        </div>
                         {% endif %}
-                    </p>
-                </div>
 
-                <div class="article-footer">
-            <span class="article-source">
-                Источник: {% if article.source %}{{ article.source }}{% else %}Неизвестен{% endif %}
-            </span>
-                    <div class="article-actions">
-                        {% if article.link %}
-                        <a href="{{ article.link }}" target="_blank" class="action-link read-more">Читать →</a>
+                        {% if article.year %}
+                        <div class="meta-item year">
+                            <span class="meta-label">Год:</span>
+                            <span class="meta-value">{{ article.year }}</span>
+                        </div>
                         {% endif %}
                     </div>
+
+                    <div class="article-abstract">
+                        <h4 class="abstract-title">Аннотация:</h4>
+                        <div class="abstract-content">
+                            {% if article.abstract %}
+                            {{ article.abstract|linebreaksbr }}
+                            {% else %}
+                            <p class="no-abstract">Аннотация не предоставлена</p>
+                            {% endif %}
+                        </div>
+                    </div>
+
+                    <footer class="article-footer">
+                        <div class="article-source">
+                            <span class="source-label">Источник:</span>
+                            <span class="source-value">
+                                            {% if article.source %}
+                                                {{ article.source }}
+                                            {% else %}
+                                                Неизвестен
+                                            {% endif %}
+                                        </span>
+                        </div>
+                        {% if article.link %}
+                        <div class="article-actions">
+                            <a href="{{ article.link }}" target="_blank" class="action-link read-more">
+                                Читать →
+                            </a>
+                        </div>
+                        {% endif %}
+                    </footer>
+                </article>
+                {% endfor %}
+            </div>
+
+            {% if total_results > 10 %}
+            <div class="pagination">
+                <div class="pagination-links">
+                    {% if has_previous %}
+                    <a href="?q={{ search_query|urlencode }}&page=1" class="page-link first-page">&laquo; Первая</a>
+                    <a href="?q={{ search_query|urlencode }}&page={{ prev_page }}" class="page-link prev-page">Предыдущая</a>
+                    {% endif %}
+
+                    <span class="current-page">
+                    Страница {{ current_page }} из {{ total_pages }}
+                </span>
+
+                    {% if has_next %}
+                    <a href="?q={{ search_query|urlencode }}&page={{ next_page }}"
+                       class="page-link next-page">Следующая</a>
+                    <a href="?q={{ search_query|urlencode }}&page={{ total_pages }}" class="page-link last-page">Последняя
+                        &raquo;</a>
+                    {% endif %}
                 </div>
             </div>
-            {% empty %}
-            <div class="no-results">
-                По вашему запросу ничего не найдено
-            </div>
-            {% endfor %}
+            {% endif %}
+        </div>
+        {% elif error %}
+        <div class="error-message">
+            <h3>Ошибка при выполнении поиска</h3>
+            <p>{{ error.message }}</p>
+            {% if error.status_code %}
+            <p class="error-code">Код ошибки: {{ error.status_code }}</p>
+            {% endif %}
+        </div>
+        {% elif search_query %}
+        <div class="no-results">
+            <p>По вашему запросу "{{ search_query }}" ничего не найдено</p>
         </div>
         {% endif %}
-
-    </div>
+    </main>
 </div>
+
+<script>
+        // Сохраняем поисковый запрос в поле формы
+        document.addEventListener('DOMContentLoaded', function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const searchQuery = urlParams.get('q');
+            if (searchQuery) {
+                const searchInput = document.querySelector('input[name="search_request"]');
+                if (searchInput) {
+                    searchInput.value = decodeURIComponent(searchQuery);
+                }
+            }
+        });
+
+</script>
 </body>
+</html>
