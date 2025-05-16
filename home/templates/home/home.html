@@ -1,0 +1,95 @@
+{% load static %}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск научных публикаций</title>
+    <link rel="stylesheet" href="{% static 'deps/css/home.css' %}">
+
+</head>
+<body>
+<h1>Contextual Search</h1>
+<div class="auth-links">
+    <a href="/login">Вход</a> | <a href="/register">Регистрация</a>
+</div>
+
+<div class="layout">
+    <nav class="sidebar">
+        <ul>
+            <li class="active"><a href="#">Главная</a></li>
+            <li><a href="#">Поиск</a></li>
+            <li><a href="#">Избранное</a></li>
+            <li><a href="#">История</a></li>
+            <li><a href="#">Настройки</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <form method="post" id="searchForm">
+            {% csrf_token %}
+            {{ form.as_p }} <!-- Рендеринг формы Django -->
+            <button type="submit">Поиск</button>
+        </form>
+
+        {% if results %}
+        <div class="results-container">
+            <h2 class="results-title">Результаты поиска:</h2>
+
+            {% for article in results %}
+            <div class="article-card">
+                <h3 class="article-title">
+                    {% if article.link %}
+                    <a href="{{ article.link }}" target="_blank" class="article-link">
+                        {{ article.title|default:"Без названия" }}
+                    </a>
+                    {% else %}
+                    {{ article.title|default:"Без названия" }}
+                    {% endif %}
+                </h3>
+
+                <div class="article-meta">
+                    {% if article.authors %}
+                    <span class="meta-item authors">Авторы: {{ article.authors|join:", " }}</span>
+                    {% else %}
+                    <span class="meta-item authors">Авторы: Не указаны</span>
+                    {% endif %}
+
+                    {% if article.year %}
+                    <span class="meta-item year">Год: {{ article.year }}</span>
+                    {% else %}
+                    <span class="meta-item year">Год: -</span>
+                    {% endif %}
+                </div>
+
+                <div class="article-abstract">
+                    <p>
+                        {% if article.abstract %}
+                        {{ article.abstract|linebreaksbr }}
+                        {% else %}
+                        Аннотация не предоставлена
+                        {% endif %}
+                    </p>
+                </div>
+
+                <div class="article-footer">
+            <span class="article-source">
+                Источник: {% if article.source %}{{ article.source }}{% else %}Неизвестен{% endif %}
+            </span>
+                    <div class="article-actions">
+                        {% if article.link %}
+                        <a href="{{ article.link }}" target="_blank" class="action-link read-more">Читать →</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <div class="no-results">
+                По вашему запросу ничего не найдено
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+
+    </div>
+</div>
+</body>
