@@ -1,5 +1,4 @@
 import math
-
 import requests
 from django.core.cache import cache
 from django.shortcuts import render, redirect
@@ -45,6 +44,16 @@ def search_core(title, limit=100, offset=0):
         }
 
 
+def get_cached_articles(search_query, page_number):
+    cache_key = f"articles_{search_query}_{page_number}"
+    return cache.get(cache_key)
+
+
+def set_articles_cache(search_query, page_number, data):
+    cache_key = f"articles_{search_query}_{page_number}"
+    cache.set(cache_key, data, timeout=300)  # 5 минут (300 секунд)
+
+
 def search_view(request):
     form = SearchForm(request.POST or None)
     error = None
@@ -64,24 +73,37 @@ def search_view(request):
     total_results = 0
 
     if search_query:
-        offset = (page_number - 1) * 10
-        print(f"\n=== API Request: Page {page_number} ===")
-        print(f"Query: {search_query}")
-        print(f"Offset: {offset}")
-
-        api_response = search_core(search_query, limit=10, offset=offset)
-
-        if not api_response.get('error'):
-            articles = api_response['articles']
-            total_results = api_response['total']
-            print(f"Received {len(articles)} articles")
-
-            if not articles and page_number > 1:
-                print("No articles, redirecting to page 1")
-                return redirect(f'/?q={search_query}&page=1')
+        # Проверяем кэш перед запросом к API
+        cached_data = get_cached_articles(search_query, page_number)
+        if cached_data:
+            print(f"Using cached data for page {page_number}")
+            articles = cached_data['articles']
+            total_results = cached_data['total']
         else:
-            error = api_response
-            print(f"API Error: {error.get('message')}")
+            offset = (page_number - 1) * 10
+            print(f"\n=== API Request: Page {page_number} ===")
+            print(f"Query: {search_query}")
+            print(f"Offset: {offset}")
+
+            api_response = search_core(search_query, limit=10, offset=offset)
+
+            if not api_response.get('error'):
+                articles = api_response['articles']
+                total_results = api_response['total']
+                print(f"Received {len(articles)} articles")
+
+                # Сохраняем в кэш
+                set_articles_cache(search_query, page_number, {
+                    'articles': articles,
+                    'total': total_results
+                })
+
+                if not articles and page_number > 1:
+                    print("No articles, redirecting to page 1")
+                    return redirect(f'/?q={search_query}&page=1')
+            else:
+                error = api_response
+                print(f"API Error: {error.get('message')}")
 
     # Для отладки
     print(f"Articles to template: {len(articles)}")
@@ -91,7 +113,7 @@ def search_view(request):
 
     return render(request, 'home/home.html', {
         'form': form,
-        'articles': articles,  # Передаем напрямую статьи
+        'articles': articles,
         'current_page': page_number,
         'total_results': total_results,
         'error': error,
@@ -99,5 +121,6 @@ def search_view(request):
         'has_previous': page_number > 1,
         'has_next': (page_number * 10) < total_results,
         'next_page': page_number + 1,
-        'prev_page': page_number - 1
+        'prev_page': page_number - 1,
+        'total_pages': total_pages
     })
