@@ -122,5 +122,6 @@ def search_view(request):
         'has_next': (page_number * 10) < total_results,
         'next_page': page_number + 1,
         'prev_page': page_number - 1,
-        'total_pages': total_pages
+        'total_pages': total_pages,
+        'request': request,
     })

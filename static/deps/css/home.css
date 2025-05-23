@@ -299,3 +299,38 @@ button:hover {
     margin-top: 20px;
     color: #cc0000;
 }
+
+.auth-links {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.username {
+    color: #3498db;
+    font-weight: 500;
+}
+
+.logout-btn {
+    background: none;
+    border: none;
+    color: #e74c3c; /* Основной цвет текста */
+    cursor: pointer;
+    font-size: inherit;
+    padding: 0;
+    text-decoration: none; /* Убираем подчеркивание */
+    transition: color 0.2s ease; /* Плавное изменение цвета */
+    font-weight: 500; /* Полужирный текст */
+}
+
+.logout-btn:hover {
+    color: #c0392b; /* Темнее при наведении */
+    text-decoration: none; /* Убедимся, что подчеркивания нет */
+    background-color: transparent !important; /* Гарантированно без фона */
+}
+
+/* Убираем стандартные стили кнопки при фокусе */
+.logout-btn:focus {
+    outline: none;
+    box-shadow: none;
+}

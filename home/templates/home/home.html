@@ -13,7 +13,15 @@
 <header>
     <h1>Contextual Search</h1>
     <div class="auth-links">
-        <a href="/login">Вход</a> | <a href="/register">Регистрация</a>
+        {% if request.session.access_token %}
+        <span class="username">Привет, {{ request.session.username|default:"Гость" }}</span> |
+        <form action="{% url 'user:logout' %}" method="post" style="display: inline;">
+            {% csrf_token %}
+            <button type="submit" class="logout-btn">Выход</button>
+        </form>
+        {% else %}
+        <a href="{% url 'user:login' %}">Вход</a> | <a href="{% url 'user:register' %}">Регистрация</a>
+        {% endif %}
     </div>
 </header>
 
@@ -145,19 +153,7 @@
     </main>
 </div>
 
-<script>
-        // Сохраняем поисковый запрос в поле формы
-        document.addEventListener('DOMContentLoaded', function() {
-            const urlParams = new URLSearchParams(window.location.search);
-            const searchQuery = urlParams.get('q');
-            if (searchQuery) {
-                const searchInput = document.querySelector('input[name="search_request"]');
-                if (searchInput) {
-                    searchInput.value = decodeURIComponent(searchQuery);
-                }
-            }
-        });
 
-</script>
+<script src="{% static 'deps/javascript/home.js' %}"></script>
 </body>
 </html>

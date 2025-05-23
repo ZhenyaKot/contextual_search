@@ -1,0 +1,66 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="{% static 'deps/css/registration.css' %}">
+</head>
+<body>
+    <div class="registration-container">
+        <h2 class="registration-title">Регистрация</h2>
+
+        <!-- Контейнер для ошибок API -->
+        <div id="api-errors" class="api-errors" style="display: none;"></div>
+
+        <form method="post" id="register-form">
+            {% csrf_token %}
+
+            <div class="form-group">
+                <label for="id_username">Имя пользователя:</label>
+                <input type="text" name="username" id="id_username" required>
+                <div id="username-errors" class="field-errors"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="id_email">Email:</label>
+                <input type="email" name="email" id="id_email" required>
+                <div id="email-errors" class="field-errors"></div>
+            </div>
+
+            <div class="form-group">
+                <label for="id_password1">Пароль:</label>
+                <input type="password" name="password1" id="id_password1" required>
+                <div id="password1-errors" class="field-errors"></div>
+                <div class="password-hints">
+                    <p>Пароль должен содержать:</p>
+                    <ul>
+                        <li id="length-hint">Минимум 8 символов</li>
+                        <li id="num-hint">Хотя бы 1 цифру</li>
+                        <li id="special-hint">Хотя бы 1 спецсимвол</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="id_password2">Подтверждение пароля:</label>
+                <input type="password" name="password2" id="id_password2" required>
+                <div id="password2-errors" class="field-errors"></div>
+            </div>
+
+            <button type="submit" class="submit-btn" id="submit-btn">
+                <span id="btn-text">Зарегистрироваться</span>
+                <div id="spinner" class="spinner" style="display: none;"></div>
+            </button>
+
+            <div class="login-link">
+                Уже есть аккаунт? <a href="{% url 'user:login' %}">Войти</a>
+            </div>
+        </form>
+    </div>
+
+    <script src="{% static 'deps/javascript/registration.js' %}"></script>
+</body>
+</html>
