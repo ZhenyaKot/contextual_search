@@ -1,0 +1,32 @@
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\con_sear\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Search form submitted | Query: 'физика и информатика'
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика и информатика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"физика и информатика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика и информатика'
+API response | Total: 24 | Returned: 9 | Query: 'физика и информатика'
+Successfully processed 9 articles
+API results processed | Articles: 9 | Total: 24
+Rendering template | Query: 'физика и информатика' | Articles: 9 | Total results: 24
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%B8%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 28818
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+Search form submitted | Query: 'математика'
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%B8%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+New API search | Query: 'математика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"математика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика'
+API response | Total: 6416 | Returned: 10 | Query: 'математика'
+Successfully processed 10 articles
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 34370
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
