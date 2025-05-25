@@ -1,6 +1,5 @@
 {% load static %}
 
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -37,17 +36,47 @@
     </nav>
 
     <main class="container">
-        <form method="post" id="searchForm" class="search-form">
+        <form method="get" id="searchForm" class="search-form">
             {% csrf_token %}
-            <div class="form-fields">
-                {{ form.as_p }}
+
+            <!-- Основное поле поиска -->
+            <div class="basic-search">
+                <input type="text" name="q" value="{{ search_query }}" placeholder="Поиск по статьям...">
+                <button type="submit" class="search-button">Поиск</button>
+                <button type="button" id="toggleAdvanced" class="advanced-toggle">
+                    Расширенный поиск ▼
+                </button>
+                <input type="hidden" name="page" value="1">
             </div>
-            <button type="submit" class="search-button">Поиск</button>
+
+            <!-- Расширенные поля -->
+            <div id="advancedFields" class="advanced-fields">
+                <div class="form-group">
+                    <label for="id_authors">Авторы:</label>
+                    <input type="text" name="authors" id="id_authors" value="{{ request.GET.authors }}" placeholder="Фамилия автора">
+                </div>
+                <div class="form-group">
+                    <label for="id_keywords">Ключевые слова:</label>
+                    <input type="text" name="keywords" id="id_keywords" value="{{ request.GET.keywords }}" placeholder="Ключевые слова">
+                </div>
+                <div class="form-group">
+                    <label for="id_abstract">Аннотация содержит:</label>
+                    <input type="text" name="abstract" id="id_abstract" value="{{ request.GET.abstract }}" placeholder="Текст аннотации">
+                </div>
+                <div class="form-group">
+                    <label for="id_dateRange">Год публикации:</label>
+                    <input type="text" name="dateRange" id="id_dateRange" value="{{ request.GET.dateRange }}" placeholder="Год или период (например: 2020-2023)">
+                </div>
+            </div>
         </form>
 
         {% if articles %}
         <div class="results-container">
-            <h2 class="results-title">Результаты поиска: "{{ search_query }}"</h2>
+            <h2 class="results-title">
+                Результаты поиска:
+                "{{ search_query }}"
+                {% if request.GET.authors %} (автор: {{ request.GET.authors }}){% endif %}
+            </h2>
             <p class="results-count">Найдено публикаций: {{ total_results }}</p>
 
             <div class="articles-list">
@@ -96,12 +125,12 @@
                         <div class="article-source">
                             <span class="source-label">Источник:</span>
                             <span class="source-value">
-                                            {% if article.source %}
-                                                {{ article.source }}
-                                            {% else %}
-                                                Неизвестен
-                                            {% endif %}
-                                        </span>
+                                {% if article.source %}
+                                    {{ article.source }}
+                                {% else %}
+                                    Неизвестен
+                                {% endif %}
+                            </span>
                         </div>
                         {% if article.link %}
                         <div class="article-actions">
@@ -119,19 +148,18 @@
             <div class="pagination">
                 <div class="pagination-links">
                     {% if has_previous %}
-                    <a href="?q={{ search_query|urlencode }}&page=1" class="page-link first-page">&laquo; Первая</a>
-                    <a href="?q={{ search_query|urlencode }}&page={{ prev_page }}" class="page-link prev-page">Предыдущая</a>
+                    <a href="?q={{ search_query|urlencode }}&authors={{ request.GET.authors|urlencode }}&page=1" class="page-link first-page">&laquo; Первая</a>
+                    <a href="?q={{ search_query|urlencode }}&authors={{ request.GET.authors|urlencode }}&page={{ prev_page }}" class="page-link prev-page">Предыдущая</a>
                     {% endif %}
 
                     <span class="current-page">
-                    Страница {{ current_page }} из {{ total_pages }}
-                </span>
+                        Страница {{ current_page }} из {{ total_pages }}
+                    </span>
 
                     {% if has_next %}
-                    <a href="?q={{ search_query|urlencode }}&page={{ next_page }}"
+                    <a href="?q={{ search_query|urlencode }}&authors={{ request.GET.authors|urlencode }}&page={{ next_page }}"
                        class="page-link next-page">Следующая</a>
-                    <a href="?q={{ search_query|urlencode }}&page={{ total_pages }}" class="page-link last-page">Последняя
-                        &raquo;</a>
+                    <a href="?q={{ search_query|urlencode }}&authors={{ request.GET.authors|urlencode }}&page={{ total_pages }}" class="page-link last-page">Последняя &raquo;</a>
                     {% endif %}
                 </div>
             </div>
@@ -147,13 +175,13 @@
         </div>
         {% elif search_query %}
         <div class="no-results">
-            <p>По вашему запросу "{{ search_query }}" ничего не найдено</p>
+            <p>По вашему запросу "{{ search_query }}"{% if request.GET.authors %} (автор: {{ request.GET.authors }}){% endif %} ничего не найдено</p>
         </div>
         {% endif %}
     </main>
 </div>
 
-
 <script src="{% static 'deps/javascript/home.js' %}"></script>
+
 </body>
 </html>

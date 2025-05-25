@@ -30,3 +30,1507 @@ Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
 "GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 34370
 C:\Python_project\contextual_search\home\views.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3515
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+Search form submitted | Query: 'математика'
+"POST / HTTP/1.1" 302 0
+New API search | Query: 'математика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"математика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика'
+API response | Total: 6416 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 34370
+Search form submitted | Query: 'химия'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+New API search | Query: 'химия' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"химия"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'химия'
+API response | Total: 5729 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 5729
+Rendering template | Query: 'химия' | Articles: 10 | Total results: 5729
+"GET /?q=%D1%85%D0%B8%D0%BC%D0%B8%D1%8F&page=1 HTTP/1.1" 200 34255
+C:\Python_project\contextual_search\home\forms.py changed, reloading.
+Watching for file changes with StatReloader
+New API search | Query: 'химия' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"химия"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'химия'
+API response | Total: 5729 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 5729
+Rendering template | Query: 'химия' | Articles: 10 | Total results: 5729
+"GET /?q=%D1%85%D0%B8%D0%BC%D0%B8%D1%8F&page=1 HTTP/1.1" 200 33708
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+New API search | Query: 'химия' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"химия"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'химия'
+API response | Total: 5729 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 5729
+Rendering template | Query: 'химия' | Articles: 10 | Total results: 5729
+"GET /?q=%D1%85%D0%B8%D0%BC%D0%B8%D1%8F&page=1 HTTP/1.1" 200 33749
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+Search form submitted | Query: 'химия'
+"POST /?q=%D1%85%D0%B8%D0%BC%D0%B8%D1%8F&page=1 HTTP/1.1" 302 0
+Cache hit | Query: 'химия' | Page: 1 | Results: 10
+Rendering template | Query: 'химия' | Articles: 10 | Total results: 5729
+"GET /?q=%D1%85%D0%B8%D0%BC%D0%B8%D1%8F&page=1 HTTP/1.1" 200 33749
+Cache hit | Query: 'химия' | Page: 1 | Results: 10
+Rendering template | Query: 'химия' | Articles: 10 | Total results: 5729
+"GET /?q=%D1%85%D0%B8%D0%BC%D0%B8%D1%8F&page=1 HTTP/1.1" 200 33749
+"GET /static/deps/css/home.css HTTP/1.1" 200 6454
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4826
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Cache hit | Query: 'химия' | Page: 1 | Results: 10
+Rendering template | Query: 'химия' | Articles: 10 | Total results: 5729
+"GET /?q=%D1%85%D0%B8%D0%BC%D0%B8%D1%8F&page=1 HTTP/1.1" 200 33749
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Cache hit | Query: 'химия' | Page: 1 | Results: 10
+Rendering template | Query: 'химия' | Articles: 10 | Total results: 5729
+"GET /?q=%D1%85%D0%B8%D0%BC%D0%B8%D1%8F&page=1 HTTP/1.1" 200 33749
+Cache hit | Query: 'химия' | Page: 1 | Results: 10
+Rendering template | Query: 'химия' | Articles: 10 | Total results: 5729
+"GET /?q=%D1%85%D0%B8%D0%BC%D0%B8%D1%8F&page=1 HTTP/1.1" 200 33749
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4826
+"GET /static/deps/css/home.css HTTP/1.1" 200 8742
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Search form submitted | Query: 'математика'
+"POST /?q=%D1%85%D0%B8%D0%BC%D0%B8%D1%8F&page=1 HTTP/1.1" 302 0
+New API search | Query: 'математика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"математика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика'
+API response | Total: 6416 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+"GET /static/deps/css/home.css HTTP/1.1" 200 8693
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+"GET /static/deps/css/home.css HTTP/1.1" 200 8693
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4826
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+"GET /static/deps/css/home.css HTTP/1.1" 200 8742
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+"GET /static/deps/css/home.css HTTP/1.1" 200 8697
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4881
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4881
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3505
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Search form submitted | Query: 'физика'
+"POST / HTTP/1.1" 302 0
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"физика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика'
+API response | Total: 6505 | Returned: 7
+Processed 7 articles
+API results processed | Articles: 7 | Total: 6505
+Rendering template | Query: 'физика' | Articles: 7 | Total results: 6505
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 23030
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3505
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Search form submitted | Query: 'математика'
+"POST / HTTP/1.1" 302 0
+New API search | Query: 'математика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"математика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика'
+API response | Total: 6416 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+New API search | Query: 'математика' | Page: 2 | Offset: 10
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"математика"&limit=10&offset=10&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика'
+API response | Total: 6416 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=2 HTTP/1.1" 200 32148
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Cache hit | Query: 'математика' | Page: 2 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=2 HTTP/1.1" 200 32148
+New API search | Query: 'математика' | Page: 3 | Offset: 20
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"математика"&limit=10&offset=20&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика'
+API response | Total: 6416 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=3 HTTP/1.1" 200 33912
+Cache hit | Query: 'математика' | Page: 2 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=2 HTTP/1.1" 200 32148
+Watching for file changes with StatReloader
+New API search | Query: 'математика' | Page: 2 | Offset: 10
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"математика"&limit=10&offset=10&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика'
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=10&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=10&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=2 HTTP/1.1" 200 4050
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+Search form submitted | Query: 'физика'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=2 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"физика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика'
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'физика' | Articles: 0 | Total results: 0
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 4025
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3505
+"POST /user/logout/ HTTP/1.1" 302 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3245
+"GET /user/login/ HTTP/1.1" 200 1505
+"GET /static/deps/css/registration.css HTTP/1.1" 304 0
+"POST /api/v1/token/ HTTP/1.1" 200 483
+"POST /user/login/ HTTP/1.1" 302 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3505
+Search form submitted | Query: 'физика'
+"POST / HTTP/1.1" 302 0
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"физика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика'
+API request failed | Error: 500 Server Error: Internal Server Error for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: Ошибка API: 500 Server Error: Internal Server Error for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'физика' | Articles: 0 | Total results: 0
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 3900
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"физика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика'
+API response | Total: 6505 | Returned: 7
+Processed 7 articles
+API results processed | Articles: 7 | Total: 6505
+Rendering template | Query: 'физика' | Articles: 7 | Total results: 6505
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 23030
+Search form submitted | Query: 'математика'
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+New API search | Query: 'математика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"математика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика'
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 4049
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3505
+Search form submitted | Query: 'математика'
+"POST / HTTP/1.1" 302 0
+New API search | Query: 'математика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"математика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика'
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3505
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+- Broken pipe from ('127.0.0.1', 56340)
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3505
+Search form submitted | Query: 'физика'
+"POST / HTTP/1.1" 302 0
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"физика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика'
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'физика' | Articles: 0 | Total results: 0
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 4025
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"физика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика'
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'физика' | Articles: 0 | Total results: 0
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 4025
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"физика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика'
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'физика' | Articles: 0 | Total results: 0
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 4025
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"физика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика'
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'физика' | Articles: 0 | Total results: 0
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 4025
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3505
+Search form submitted | Query: 'физика'
+"POST / HTTP/1.1" 302 0
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"физика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика'
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'физика' | Articles: 0 | Total results: 0
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 4025
+Watching for file changes with StatReloader
+Search form submitted | Query: 'физика'
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"физика"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика'
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'физика' | Articles: 0 | Total results: 0
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 4025
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика'
+API response | Total: 6505 | Returned: 7
+Processed 7 articles
+API results processed | Articles: 7 | Total: 6505
+Rendering template | Query: 'физика' | Articles: 7 | Total results: 6505
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 23030
+Search form submitted | Query: 'математика'
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+New API search | Query: 'математика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика'
+API response | Total: 6416 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+Search form submitted | Query: 'математика на русском'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+New API search | Query: 'математика на русском' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика на русском'
+API response | Total: 0 | Returned: 0
+Processed 0 articles
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'математика на русском' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC&page=1 HTTP/1.1" 200 3690
+Search form submitted | Query: 'химия'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC&page=1 HTTP/1.1" 302 0
+New API search | Query: 'химия' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D1%85%D0%B8%D0%BC%D0%B8%D1%8F"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'химия'
+API response | Total: 5729 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 5729
+Rendering template | Query: 'химия' | Articles: 10 | Total results: 5729
+"GET /?q=%D1%85%D0%B8%D0%BC%D0%B8%D1%8F&page=1 HTTP/1.1" 200 33749
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3505
+Search form submitted | Query: 'математика'
+"POST / HTTP/1.1" 302 0
+New API search | Query: 'математика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title%3A%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика'
+API response | Query: 'математика' | Total: 6416 | Returned: 10
+Successfully processed 10 articles
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33918
+Search form submitted | Query: 'математика'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33918
+Search form submitted | Query: 'математика'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33918
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Search form submitted | Query: 'математика'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+New API search | Query: 'математика' | Page: 1 | Offset: 0
+API error: Ошибка при запросе к API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title%3A%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 4076
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3505
+Search form submitted | Query: 'математика'
+"POST / HTTP/1.1" 302 0
+New API search | Query: 'математика' | Page: 1 | Offset: 0
+API error: Ошибка при запросе к API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title%3A%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 4076
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Search form submitted | Query: 'математика' | Author: ''
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\contextual_search\home\views.py", line 94, in search_view
+    cached_data = get_cached_articles(cache_key)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: get_cached_articles() missing 1 required positional argument: 'page_number'
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 500 72575
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Search form submitted | Query: 'математика' | Author: ''
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+New API search | Query: 'математика' | Author: '' | Page: 1 | Offset: 0
+API results processed | Articles: 10 | Total: 6416
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\contextual_search\home\views.py", line 130, in search_view
+    set_articles_cache(cache_key, {
+TypeError: set_articles_cache() missing 1 required positional argument: 'data'
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 500 86789
+C:\Python_project\contextual_search\home\cached.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+New API search | Query: 'математика' | Author: '' | Page: 1 | Offset: 0
+"GET / HTTP/1.1" 200 3505
+Search form submitted | Query: 'математика' | Author: ''
+"POST / HTTP/1.1" 302 0
+New API search | Query: 'математика' | Author: '' | Page: 1 | Offset: 0
+API error: Ошибка при запросе к API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title%3A%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+- Broken pipe from ('127.0.0.1', 57058)
+API error: Ошибка при запросе к API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title%3A%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 200 4076
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 3505
+Search form submitted | Query: 'физика' | Author: ''
+"POST / HTTP/1.1" 302 0
+New API search | Query: 'физика' | Author: '' | Page: 1 | Offset: 0
+API error: Ошибка при запросе к API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title%3A%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 200 4052
+Search form submitted | Query: 'физика' | Author: ''
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Author: '' | Page: 1 | Offset: 0
+API error: Ошибка при запросе к API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title%3A%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 200 4052
+Search form submitted | Query: 'физика' | Author: ''
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Author: '' | Page: 1 | Offset: 0
+API error: Ошибка при запросе к API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title%3A%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 200 4052
+Search form submitted | Query: 'физика' | Author: ''
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Author: '' | Page: 1 | Offset: 0
+API error: Ошибка при запросе к API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title%3A%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 200 4052
+Search form submitted | Query: 'физика' | Author: ''
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Author: '' | Page: 1 | Offset: 0
+API error: Ошибка при запросе к API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title%3A%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 200 4052
+Search form submitted | Query: 'физика' | Author: ''
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Author: '' | Page: 1 | Offset: 0
+API error: Ошибка при запросе к API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title%3A%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 200 4052
+Search form submitted | Query: 'физика' | Author: ''
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Author: '' | Page: 1 | Offset: 0
+API error: Ошибка при запросе к API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title%3A%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 200 4052
+Search form submitted | Query: 'физика' | Author: ''
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Author: '' | Page: 1 | Offset: 0
+API error: Ошибка при запросе к API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title%3A%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 200 4052
+Search form submitted | Query: 'физика' | Author: ''
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Author: '' | Page: 1 | Offset: 0
+API error: Ошибка при запросе к API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title%3A%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 200 4052
+Search form submitted | Query: 'физика' | Author: ''
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Author: '' | Page: 1 | Offset: 0
+API error: Ошибка при запросе к API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title%3A%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 200 4052
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4826
+C:\Python_project\contextual_search\home\cached.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Search form submitted | Query: 'физика'
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API results processed | Articles: 7 | Total: 6505
+Rendering template | Query: 'физика' | Articles: 7 | Total results: 6505
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 23084
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+Search form submitted | Query: 'физика'
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\contextual_search\home\views.py", line 107, in search_view
+    api_response = search_core(search_query, limit=10, offset=offset)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\contextual_search\home\views.py", line 29, in search_core
+    url = build_core_search_url(title, author, limit, offset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: build_core_search_url() takes from 1 to 3 positional arguments but 4 were given
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 500 76280
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Search form submitted | Query: 'физика'
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&author=&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика'
+API response | Total: 6505 | Returned: 7
+Processed 7 articles
+API results processed | Articles: 7 | Total: 6505
+Rendering template | Query: 'физика' | Articles: 7 | Total results: 6505
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 23030
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3505
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Search form submitted | Query: 'математика'
+"POST / HTTP/1.1" 302 0
+New API search | Query: 'математика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: 'None'
+API response | Total: 6416 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+Search form submitted | Query: 'математика'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+Search form submitted | Query: 'математика'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+Search form submitted | Query: 'математика'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+Search form submitted | Query: 'математика'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+Search form submitted | Query: 'математика'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+Search form submitted | Query: 'математика'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+Search form submitted | Query: 'математика'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+Search form submitted | Query: 'математика'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+Search form submitted | Query: 'математика'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+Search form submitted | Query: 'физика'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика' | Author: 'None'
+API request failed | Error: 500 Server Error: Internal Server Error for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: Ошибка API: 500 Server Error: Internal Server Error for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'физика' | Articles: 0 | Total results: 0
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 3900
+Search form submitted | Query: 'физика'
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+New API search | Query: 'физика' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика' | Author: 'None'
+API response | Total: 6505 | Returned: 7
+Processed 7 articles
+API results processed | Articles: 7 | Total: 6505
+Rendering template | Query: 'физика' | Articles: 7 | Total results: 6505
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 23030
+Search form submitted | Query: 'алгебра'
+"POST /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+New API search | Query: 'алгебра' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'алгебра' | Author: 'None'
+API response | Total: 865 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 865
+Rendering template | Query: 'алгебра' | Articles: 10 | Total results: 865
+"GET /?q=%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0&page=1 HTTP/1.1" 200 41602
+Search form submitted | Query: 'математика'
+"POST /?q=%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0&page=1 HTTP/1.1" 302 0
+Cache hit | Query: 'математика' | Page: 1 | Results: 10
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33864
+Search form submitted | Query: 'химия'
+"POST /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 302 0
+New API search | Query: 'химия' | Page: 1 | Offset: 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D1%85%D0%B8%D0%BC%D0%B8%D1%8F"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'химия' | Author: 'None'
+API request failed | Error: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D1%85%D0%B8%D0%BC%D0%B8%D1%8F%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: Ошибка API: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D1%85%D0%B8%D0%BC%D0%B8%D1%8F%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'химия' | Articles: 0 | Total results: 0
+"GET /?q=%D1%85%D0%B8%D0%BC%D0%B8%D1%8F&page=1 HTTP/1.1" 200 3890
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4628
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0" AND authors.name:"%D0%91%D0%BE%D0%B1%D1%80%D0%BE%D0%B2%D0%B8%D1%87"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: 'Бобрович'
+API request failed | Error: 500 Server Error: Internal Server Error for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22%20AND%20authors.name:%22%D0%91%D0%BE%D0%B1%D1%80%D0%BE%D0%B2%D0%B8%D1%87%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: 'None'
+API request failed | Error: 500 Server Error: Internal Server Error for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: Ошибка API: 500 Server Error: Internal Server Error for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1&authors=%D0%91%D0%BE%D0%B1%D1%80%D0%BE%D0%B2%D0%B8%D1%87 HTTP/1.1" 200 3686
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: ''
+API response | Total: 6416 | Returned: 10
+Processed 10 articles
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: 'None'
+API response | Total: 6416 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+- Broken pipe from ('127.0.0.1', 58115)
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: ''
+API request failed | Error: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: 'None'
+API request failed | Error: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: Ошибка API: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 3665
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: ''
+API request failed | Error: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: 'None'
+API request failed | Error: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: Ошибка API: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 3665
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: ''
+API request failed | Error: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: 'None'
+API request failed | Error: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: Ошибка API: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 3665
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: ''
+API response | Total: 6416 | Returned: 10
+Processed 10 articles
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: 'None'
+API response | Total: 6416 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33691
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1&authors=%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87 HTTP/1.1" 200 33866
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0" AND authors.name:"%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87"&limit=10&offset=10&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: 'Богданович'
+API request failed | Error: 500 Server Error: Internal Server Error for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22%20AND%20authors.name:%22%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87%22&limit=10&offset=10&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"&limit=10&offset=10&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'математика' | Author: 'None'
+API response | Total: 6416 | Returned: 10
+Processed 10 articles
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&authors=%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87&page=2 HTTP/1.1" 200 32288
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1&authors=%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87 HTTP/1.1" 200 33866
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0" AND authors.name:"%D0%9F%D0%BE%D1%87%D0%B5%D0%BF%D0%BE%D0%B2"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика' | Author: 'Почепов'
+API response | Total: 0 | Returned: 0
+Processed 0 articles
+API request started | URL: https://api.core.ac.uk/v3/search/works?q=title:"%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0"&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI | Title: 'физика' | Author: 'None'
+API response | Total: 6505 | Returned: 7
+Processed 7 articles
+API results processed | Articles: 7 | Total: 6505
+Rendering template | Query: 'физика' | Articles: 7 | Total results: 6505
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1&authors=%D0%9F%D0%BE%D1%87%D0%B5%D0%BF%D0%BE%D0%B2 HTTP/1.1" 200 22976
+Rendering template | Query: 'физика' | Articles: 7 | Total results: 6505
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1&authors=%D0%91%D0%BE%D0%B1%D1%80%D0%BE%D0%B2%D0%B8%D1%87 HTTP/1.1" 200 22992
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: 'физика' | Articles: 7 | Total results: 6505
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&page=1&authors=%D0%9E%D0%BB%D0%B5%D1%85%D0%BD%D0%BE%D0%B2%D0%B8%D1%87 HTTP/1.1" 200 23008
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33745
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1&authors=%D0%91%D0%BE%D0%B3%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87 HTTP/1.1" 200 33920
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33745
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1&authors=%D0%91%D0%BE%D0%B1%D1%80%D0%BE%D0%B2%D0%B8%D1%87 HTTP/1.1" 200 33888
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'история' | Articles: 0 | Total results: 0
+"GET /?q=%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F&page=1&authors=%D0%9F%D0%BE%D1%87%D0%B5%D0%BF%D0%BE%D0%B2 HTTP/1.1" 200 3447
+Rendering template | Query: 'история' | Articles: 0 | Total results: 0
+"GET /?q=%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F&page=1 HTTP/1.1" 200 3404
+Rendering template | Query: 'история' | Articles: 0 | Total results: 0
+"GET /?q=%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F&page=1 HTTP/1.1" 200 3404
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'алгебра' | Articles: 0 | Total results: 0
+"GET /?q=%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0&page=1&authors=%D0%91%D0%BE%D0%B1%D1%80%D0%BE%D0%B2%D0%B8%D1%87 HTTP/1.1" 200 3451
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+Rendering template | Query: 'алгебра' | Articles: 0 | Total results: 0
+"GET /?q=%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0&page=1 HTTP/1.1" 200 3404
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+Rendering template | Query: 'алгебра' | Articles: 0 | Total results: 0
+"GET /?q=%D0%B0%D0%BB%D0%B3%D0%B5%D0%B1%D1%80%D0%B0&page=1 HTTP/1.1" 200 3404
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33745
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1&authors=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0 HTTP/1.1" 200 33952
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1&authors=%D0%93%D1%83%D0%BF%D0%B0%D0%BB HTTP/1.1" 200 33840
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'physics' | Articles: 0 | Total results: 0
+"GET /?q=physics&page=1&authors=%D0%93%D1%83%D0%BF%D0%B0%D0%BB HTTP/1.1" 200 3425
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: 'physics' | Articles: 0 | Total results: 0
+"GET /?q=physics&page=1 HTTP/1.1" 200 3390
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+API results processed | Articles: 4 | Total: 224680
+Rendering template | Query: 'physics' | Articles: 4 | Total results: 224680
+"GET /?q=physics&page=1 HTTP/1.1" 200 15393
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33745
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1&authors=%D0%9F%D0%BE%D1%87%D0%B5%D0%BF%D0%BE%D0%B2 HTTP/1.1" 200 33872
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 200 3429
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3390
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3390
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3390
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3390
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3390
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3390
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+API request failed | Error: 500 Server Error: Internal Server Error for url: https://api.core.ac.uk/v3/search/works/?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: Ошибка API: 500 Server Error: Internal Server Error for url: https://api.core.ac.uk/v3/search/works/?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3604
+API results processed | Articles: 4 | Total: 224680
+Rendering template | Query: 'Physics' | Articles: 4 | Total results: 224680
+"GET /?q=Physics&page=1 HTTP/1.1" 200 15393
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\contextual_search\home\views.py", line 106, in search_view
+    api_response = search_core(
+                   ^^^^^^^^^^^^
+  File "C:\Python_project\contextual_search\home\views.py", line 63, in search_core
+    url = build_core_search_url(title, author, limit, offset)
+          ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'build_core_search_url' is not defined
+"GET /?q=Physics&page=1 HTTP/1.1" 500 75362
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+API results processed | Articles: 4 | Total: 224680
+Rendering template | Query: 'Physics' | Articles: 4 | Total results: 224680
+"GET /?q=Physics&page=1 HTTP/1.1" 200 15393
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 200 3429
+API results processed | Articles: 4 | Total: 224680
+Rendering template | Query: 'Physics' | Articles: 4 | Total results: 224680
+"GET /?q=Physics&page=1 HTTP/1.1" 200 15393
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4627
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET /?${searchParams.toString()} HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET /?${searchParams.toString()} HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4628
+API results processed | Articles: 4 | Total: 224680
+Rendering template | Query: 'Physics' | Articles: 4 | Total results: 224680
+"GET /?q=Physics&page=1 HTTP/1.1" 200 15393
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3729
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3729
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3729
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 3795
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 3795
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+- Broken pipe from ('127.0.0.1', 60811)
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 3795
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33745
+API results processed | Articles: 4 | Total: 224680
+Rendering template | Query: 'Physics' | Articles: 4 | Total results: 224680
+"GET /?q=Physics&page=1 HTTP/1.1" 200 15393
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 200 3429
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 200 3429
+API results processed | Articles: 4 | Total: 224680
+Rendering template | Query: 'Physics' | Articles: 4 | Total results: 224680
+"GET /?q=Physics&page=1 HTTP/1.1" 200 15393
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4621
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET /?${searchParams.toString()} HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET /?${searchParams.toString()} HTTP/1.1" 200 3231
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET /?${searchParams.toString()} HTTP/1.1" 200 3231
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET /?${searchParams.toString()} HTTP/1.1" 200 3231
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET /?${searchParams.toString()} HTTP/1.1" 200 3231
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4628
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\contextual_search\home\views.py", line 107, in search_view
+    api_response = search_core(
+                   ^^^^^^^^^^^^
+  File "C:\Python_project\contextual_search\home\views.py", line 64, in search_core
+    url = build_core_search_url(title, author, limit, offset)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\contextual_search\home\core_url.py", line 8, in build_core_search_url
+    api_key = os.getenv('API_CORE')
+              ^^
+NameError: name 'os' is not defined
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 500 80007
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 200 3429
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 4 | Total: 224680
+Rendering template | Query: 'Physics' | Articles: 4 | Total results: 224680
+"GET /?q=Physics&page=1 HTTP/1.1" 200 15393
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4627
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET /?${searchParams.toString()} HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET /?${searchParams.toString()} HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET /?${searchParams.toString()} HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4628
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 200 3429
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4587
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22%20AND%20authors:%22Crzuy%2C+Craig%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22%20AND%20authors:%22Crzuy%2C+Craig%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 200 3778
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3729
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3729
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3729
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"POST /user/logout/ HTTP/1.1" 302 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 2971
+"GET /user/login/ HTTP/1.1" 200 1505
+"GET /static/deps/css/registration.css HTTP/1.1" 304 0
+"POST /api/v1/token/ HTTP/1.1" 200 483
+"POST /user/login/ HTTP/1.1" 302 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3729
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3729
+Watching for file changes with StatReloader
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+- Broken pipe from ('127.0.0.1', 61550)
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3729
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3729
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3729
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4601
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Unexpected error: Session.request() got an unexpected keyword argument 'ssl'
+Traceback (most recent call last):
+  File "C:\Python_project\contextual_search\home\views.py", line 67, in search_core
+    response = requests.get(url, timeout=30, ssl=ssl.PROTOCOL_TLS)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Session.request() got an unexpected keyword argument 'ssl'
+API error: Неожиданная ошибка: Session.request() got an unexpected keyword argument 'ssl'
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3511
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+API request failed | Error: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+API error: Ошибка API: HTTPSConnectionPool(host='api.core.ac.uk', port=443): Max retries exceeded with url: /v3/search/works?q=title:%22Physics%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1002)')))
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1 HTTP/1.1" 200 3729
+API results processed | Articles: 4 | Total: 224680
+Rendering template | Query: 'Physics' | Articles: 4 | Total results: 224680
+"GET /?q=Physics&page=1 HTTP/1.1" 200 15393
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 200 3429
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 200 3429
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 4 | Total: 224680
+Rendering template | Query: 'Physics' | Articles: 4 | Total results: 224680
+"GET /?q=Physics&page=1 HTTP/1.1" 200 15393
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 200 3429
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+API results processed | Articles: 4 | Total: 224680
+Rendering template | Query: 'Physics' | Articles: 4 | Total results: 224680
+"GET /?q=Physics&page=1 HTTP/1.1" 200 15393
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 200 3429
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 200 3429
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+API results processed | Articles: 4 | Total: 224680
+Rendering template | Query: 'Physics' | Articles: 4 | Total results: 224680
+"GET /?q=Physics&page=1 HTTP/1.1" 200 15393
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 200 3429
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&page=1&authors=Crzuy%2C+Craig HTTP/1.1" 200 3429
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5126
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5126
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5126
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5126
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'title:"Physics" AND authors:"Crzuy%2C%20Craig"' | Articles: 0 | Total results: 0
+"GET /?q=title%3A%22Physics%22+AND+authors%3A%22Crzuy%252C%2520Craig%22&page=1 HTTP/1.1" 200 3508
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4746
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4746
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4746
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4746
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4746
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4746
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 4746
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'title:"Physics" AND authors:"Crzuy, Craig"' | Articles: 0 | Total results: 0
+"GET /?q=title%3A%22Physics%22%20AND%20authors%3A%22Crzuy%2C%20Craig%22&page=1 HTTP/1.1" 200 3500
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'title:"Physics" AND authors:"Wang"' | Articles: 0 | Total results: 0
+"GET /?q=title%3A%22Physics%22%20AND%20authors%3A%22Wang%22&page=1 HTTP/1.1" 200 3484
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'title:"title:Physics AND authors:Wang" AND authors:"Crzuy, Craig"' | Articles: 0 | Total results: 0
+"GET /?q=title%3A%22title%3APhysics%20AND%20authors%3AWang%22%20AND%20authors%3A%22Crzuy%2C%20Craig%22&page=1 HTTP/1.1" 200 3546
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5276
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5276
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5276
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5276
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5276
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'title:"Physics" AND authors:"Crzuy, Craig"' | Articles: 0 | Total results: 0
+"GET /?q=title%3A%22Physics%22%20AND%20authors%3A%22Crzuy%2C%20Craig%22&page=1 HTTP/1.1" 200 3500
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'title:"Physics" AND authors:"Wang"' | Articles: 0 | Total results: 0
+"GET /?q=title%3A%22Physics%22%20AND%20authors%3A%22Wang%22&page=1 HTTP/1.1" 200 3484
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5021
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5021
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5021
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5021
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5021
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics AND authors:"Wang"' | Articles: 0 | Total results: 0
+"GET /?q=Physics%20AND%20authors%3A%22Wang%22&page=1 HTTP/1.1" 200 3448
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5021
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5021
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5021
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5021
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5021
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 3 | Total: 3948
+Rendering template | Query: 'Physics AND authors:"Wang"' | Articles: 3 | Total results: 3948
+"GET /?q=Physics%20AND%20authors%3A%22Wang%22&page=1 HTTP/1.1" 200 14432
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics AND authors:Wang AND authors:"Crzuy, Craig"' | Articles: 0 | Total results: 0
+"GET /?q=Physics%20AND%20authors%3AWang%20AND%20authors%3A%22Crzuy%2C%20Craig%22&page=1 HTTP/1.1" 200 3498
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics AND authors:"Crzuy, Craig"' | Articles: 0 | Total results: 0
+"GET /?q=Physics%20AND%20authors%3A%22Crzuy%2C%20Craig%22&page=1 HTTP/1.1" 200 3464
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+API results processed | Articles: 3 | Total: 3948
+Rendering template | Query: 'Physics AND authors:"Wang"' | Articles: 3 | Total results: 3948
+"GET /?q=Physics%20AND%20authors%3A%22Wang%22&page=1 HTTP/1.1" 200 14432
+API request failed | Error: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: Ошибка API: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'Математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 3666
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request failed | Error: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works?q=title:%22%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: Ошибка API: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works?q=title:%22%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'Математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 3665
+API request failed | Error: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works?q=title:%22%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: Ошибка API: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works?q=title:%22%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'Математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 3665
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5021
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 10 | Total: 6416
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6416
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 33745
+API results processed | Articles: 6 | Total: 6
+Rendering template | Query: 'математика AND authors:"Головчанська"' | Articles: 6 | Total results: 6
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%20AND%20authors%3A%22%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%22&page=1 HTTP/1.1" 200 23886
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'математика AND authors:Головчанська AND authors:"Локазюк"' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%20AND%20authors%3A%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%20AND%20authors%3A%22%D0%9B%D0%BE%D0%BA%D0%B0%D0%B7%D1%8E%D0%BA%22&page=1 HTTP/1.1" 200 3568
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5001
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5001
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5001
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5001
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5001
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 6 | Total: 6
+Rendering template | Query: 'математика AND authors:"Головчанська"' | Articles: 6 | Total results: 6
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%20AND%20authors%3A%22%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%22&page=1 HTTP/1.1" 200 23886
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 4 | Total: 4
+Rendering template | Query: 'математика AND authors:"Марущак"' | Articles: 4 | Total results: 4
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%20AND%20authors%3A%22%D0%9C%D0%B0%D1%80%D1%83%D1%89%D0%B0%D0%BA%22&page=1 HTTP/1.1" 200 17839
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 5 | Total: 5
+Rendering template | Query: 'математика AND authors:"Мащакевич"' | Articles: 5 | Total results: 5
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%20AND%20authors%3A%22%D0%9C%D0%B0%D1%89%D0%B0%D0%BA%D0%B5%D0%B2%D0%B8%D1%87%22&page=1 HTTP/1.1" 200 20101
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 0 | Total: 5
+Rendering template | Query: 'математика AND authors:"Мащакевич, Головчанська"' | Articles: 0 | Total results: 5
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%20AND%20authors%3A%22%D0%9C%D0%B0%D1%89%D0%B0%D0%BA%D0%B5%D0%B2%D0%B8%D1%87%2C%20%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%22&page=1 HTTP/1.1" 200 3554
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 5 | Total: 5
+Rendering template | Query: 'математика AND authors:"Мащакевич"' | Articles: 5 | Total results: 5
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%20AND%20authors%3A%22%D0%9C%D0%B0%D1%89%D0%B0%D0%BA%D0%B5%D0%B2%D0%B8%D1%87%22&page=1 HTTP/1.1" 200 20101
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5065
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5065
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5065
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5065
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5065
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5065
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3231
+"GET /static/deps/css/home.css HTTP/1.1" 200 8698
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 5065
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 6 | Total: 6
+Rendering template | Query: 'математика AND authors:"Головчанська"' | Articles: 6 | Total results: 6
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0+AND+authors%3A%22%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%22&page=1 HTTP/1.1" 200 23886
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 0 | Total: 4
+Rendering template | Query: 'математика AND authors:"Головчанська, Марущак"' | Articles: 0 | Total results: 4
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0+AND+authors%3A%22%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%2C+%D0%9C%D0%B0%D1%80%D1%83%D1%89%D0%B0%D0%BA%22&page=1 HTTP/1.1" 200 3546
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0

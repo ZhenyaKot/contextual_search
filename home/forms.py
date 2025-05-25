@@ -4,13 +4,6 @@ from django.core.validators import RegexValidator
 
 
 class SearchForm(forms.Form):
-    QUALIFICATION_CHOICES = [
-        ('', 'Выберите квалификацию'),
-        ('aspirant', 'Аспирант'),
-        ('candidate', 'Кандидат наук'),
-        ('doctor', 'Доктор наук'),
-        ('authority', 'Признанный авторитет'),
-    ]
 
     search_request = forms.CharField(
         max_length=255,
@@ -71,15 +64,6 @@ class SearchForm(forms.Form):
                 regex=r'^\d{4}-\d{4}$|^$',
             )
         ]
-    )
-
-    authorQualification = forms.ChoiceField(
-        choices=QUALIFICATION_CHOICES,
-        label='Квалификация авторов',
-        required=False,
-        widget=forms.Select(attrs={
-            'class': 'form-select'
-        }),
     )
 
     def clean(self):
