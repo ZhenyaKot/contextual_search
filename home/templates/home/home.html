@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Поиск научных публикаций</title>
     <link rel="stylesheet" href="{% static 'deps/css/home.css' %}">
-
 </head>
 <body>
 <header>
@@ -70,9 +69,15 @@
                     <label for="id_abstract">Аннотация содержит:</label>
                     <input type="text" name="abstract" id="id_abstract" value="{{ request.GET.abstract }}" placeholder="Текст аннотации">
                 </div>
+
+                <!--  Диапазон дат -->
                 <div class="form-group">
-                    <label for="id_dateRange">Год публикации:</label>
-                    <input type="text" name="dateRange" id="id_dateRange" value="{{ request.GET.dateRange }}" placeholder="Год или период (например: 2020-2023)">
+                    <label for="id_year_start">Год начала публикации:</label>
+                    <input type="number" name="year_start" id="id_year_start" value="{{ request.GET.year_start }}" placeholder="Начальный год">
+                </div>
+                <div class="form-group">
+                    <label for="id_year_end">Год окончания публикации:</label>
+                    <input type="number" name="year_end" id="id_year_end" value="{{ request.GET.year_end }}" placeholder="Конечный год">
                 </div>
             </div>
         </form>
@@ -88,6 +93,16 @@
                         {{ author }}{% if not forloop.last %}, {% endif %}
                     {% endfor %}
                     )
+                {% endif %}
+                {% if request.GET.year_start or request.GET.year_end %}
+                    (
+                    {% if request.GET.year_start %}
+                        с {{ request.GET.year_start }}
+                    {% endif %}
+                    {% if request.GET.year_end %}
+                        по {{ request.GET.year_end }}
+                    {% endif %}
+                    год)
                 {% endif %}
             </h2>
             <p class="results-count">Найдено публикаций: {{ total_results }}</p>

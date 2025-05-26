@@ -4,7 +4,6 @@ from django.core.validators import RegexValidator
 
 
 class SearchForm(forms.Form):
-
     search_request = forms.CharField(
         max_length=255,
         label='Поиск статей',
@@ -51,31 +50,42 @@ class SearchForm(forms.Form):
         }),
     )
 
-    dateRange = forms.CharField(
-        max_length=20,
-        label='Годы публикации',
+    year_start = forms.IntegerField(
+        label='Год начала публикации',
         required=False,
-        widget=forms.TextInput(attrs={
-            'placeholder': 'Например: 2020-2023',
+        widget=forms.NumberInput(attrs={
+            'placeholder': 'Начальный год',
             'class': 'form-control'
         }),
-        validators=[
-            RegexValidator(
-                regex=r'^\d{4}-\d{4}$|^$',
-            )
-        ]
+        min_value=1000,  # Минимальный год
+        max_value=2025   # Максимальный год
+    )
+
+    year_end = forms.IntegerField(
+        label='Год окончания публикации',
+        required=False,
+        widget=forms.NumberInput(attrs={
+            'placeholder': 'Конечный год',
+            'class': 'form-control'
+        }),
+        min_value=1000,  # Минимальный год
+        max_value=2025   # Максимальный год
     )
 
     def clean(self):
         cleaned_data = super().clean()
-        date_range = cleaned_data.get('dateRange')
+        start_year = cleaned_data.get('year_start')
+        end_year = cleaned_data.get('year_end')
 
-        if date_range:
-            start_year, end_year = map(int, date_range.split('-'))
+        if start_year and end_year:
             if start_year > end_year:
-                self.add_error('dateRange', 'Начальный год должен быть меньше конечного')
+                self.add_error('year_start', 'Начальный год должен быть меньше или равен конечному году')
             if end_year > 2025:  # Текущий год + 1
-                self.add_error('dateRange', 'Год не может быть больше текущего')
+                self.add_error('year_end', 'Год не может быть больше текущего')
+        elif start_year and start_year > 2025:
+            self.add_error('year_start', 'Год не может быть больше текущего')
+        elif end_year and end_year > 2025:
+            self.add_error('year_end', 'Год не может быть больше текущего')
 
         return cleaned_data
 

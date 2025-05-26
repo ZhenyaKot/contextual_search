@@ -1,21 +1,26 @@
 import os
-from urllib.parse import quote_plus
+from urllib.parse import quote_plus, quote
 
 
-def build_core_search_url(title: str, authors: list = None, limit: int = 100, offset: int = 0) -> str:
+def build_core_search_url(title: str, authors: list = None, limit: int = 100, offset: int = 0,
+                          year_start: int = None, year_end: int = None) -> str:
     """
-    Формирует URL для запроса к API CORE с поддержкой нескольких авторов
+    Формирует URL для запроса к API CORE с точным названием статьи, авторами и диапазоном годов публикации.
     """
     api_key = os.getenv('API_CORE')
     base_url = "https://api.core.ac.uk/v3/search/works"
-    # Экранируем параметры
-    safe_title = quote_plus(title.replace('"', '\\"'))
-    # Формируем запрос
+    safe_title = quote(title)
     query = f'title:"{safe_title}"'
     if authors:
-        safe_authors = [quote_plus(author.replace('"', '\\"')) for author in authors]
+        safe_authors = [quote(author) for author in authors]
         authors_query = ' AND '.join([f'authors:"{author}"' for author in safe_authors])
         query += f' AND ({authors_query})'
+    if year_start and year_end:
+        query += f' AND (yearPublished>={year_start} AND yearPublished<={year_end})'
+    elif year_start:
+        query += f' AND yearPublished>={year_start}'
+    elif year_end:
+        query += f' AND yearPublished<={year_end}'
     return (
         f"{base_url}?q={query}"
         f"&limit={limit}"

@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchForm = document.getElementById('searchForm');
     const toggleBtn = document.getElementById('toggleAdvanced');
     const advancedFields = document.getElementById('advancedFields');
-    const addAuthorBtn = document.getElementById('addAuthorBtn'); // Кнопка "Добавить автора"
-    const authorsContainer = document.getElementById('authorsContainer'); // Контейнер для авторов
+    const addAuthorBtn = document.getElementById('addAuthorBtn');
+    const authorsContainer = document.getElementById('authorsContainer');
 
     // Функция для добавления нового поля автора
     function addAuthorField() {
@@ -12,26 +12,26 @@ document.addEventListener('DOMContentLoaded', function() {
         newAuthorInput.type = 'text';
         newAuthorInput.name = 'authors[]';
         newAuthorInput.placeholder = 'Фамилия автора';
-        newAuthorInput.classList.add('author-input'); // Добавляем класс для стилизации
+        newAuthorInput.classList.add('author-input');
 
         const removeButton = document.createElement('button');
         removeButton.type = 'button';
         removeButton.classList.add('remove-author-button');
-        removeButton.textContent = 'Удалить автора'; // Текст кнопки
+        removeButton.textContent = 'Удалить автора';
         removeButton.addEventListener('click', function(event) {
             event.preventDefault();
             newFormGroup.remove();
-            updateRemoveButtonsVisibility(); // Обновляем видимость кнопок после удаления
+            updateRemoveButtonsVisibility();
         });
 
         const newFormGroup = document.createElement('div');
-        newFormGroup.classList.add('author-field-container'); // Для стилизации
+        newFormGroup.classList.add('author-field-container');
         newFormGroup.appendChild(newAuthorInput);
         newFormGroup.appendChild(removeButton);
 
         authorsContainer.appendChild(newFormGroup);
 
-        updateRemoveButtonsVisibility(); // Обновляем видимость кнопок после добавления
+        updateRemoveButtonsVisibility();
     }
 
     // Функция для обновления видимости кнопок "Удалить автора"
@@ -55,12 +55,12 @@ document.addEventListener('DOMContentLoaded', function() {
         return authors;
     }
 
-    // Остальной код (без изменений)
     // Поля формы
     const searchInput = document.querySelector('input[name="q"]');
     const keywordsInput = document.querySelector('input[name="keywords"]');
     const abstractInput = document.querySelector('input[name="abstract"]');
-    const dateRangeInput = document.querySelector('input[name="dateRange"]');
+    const yearStartInput = document.querySelector('input[name="year_start"]');
+    const yearEndInput = document.querySelector('input[name="year_end"]');
     const pageInput = document.querySelector('input[name="page"]');
 
     // Проверяем наличие параметров в URL
@@ -68,7 +68,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const hasAdvancedParams = urlParams.has('authors') ||
         urlParams.has('keywords') ||
         urlParams.has('abstract') ||
-        urlParams.has('dateRange');
+        urlParams.has('year_start') ||
+        urlParams.has('year_end');
 
     // Функция переключения расширенных полей
     function toggleAdvancedFields(show) {
@@ -106,10 +107,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 addAuthorField();
             }
         }
+
         // Заполняем остальные поля, если они есть в URL
         if (urlParams.has('keywords')) keywordsInput.value = urlParams.get('keywords') || '';
         if (urlParams.has('abstract')) abstractInput.value = urlParams.get('abstract') || '';
-        if (urlParams.has('dateRange')) dateRangeInput.value = urlParams.get('dateRange') || '';
+        if (urlParams.has('year_start')) yearStartInput.value = urlParams.get('year_start') || '';
+        if (urlParams.has('year_end')) yearEndInput.value = urlParams.get('year_end') || '';
 
         // Скрываем кнопку "Удалить автора" для первого поля
         updateRemoveButtonsVisibility();
@@ -120,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Очистка кавычек в полях ввода
     function sanitizeInputs() {
-        const inputs = [searchInput, keywordsInput, abstractInput, dateRangeInput];
+        const inputs = [searchInput, keywordsInput, abstractInput, yearStartInput, yearEndInput];
         inputs.forEach(input => {
             if (input.value) {
                 input.value = input.value.replace(/"/g, '');
@@ -133,12 +136,16 @@ document.addEventListener('DOMContentLoaded', function() {
         e.preventDefault();
         sanitizeInputs();
 
-        const authors = getAuthors(); // Получаем список авторов
+        const authors = getAuthors();
 
-        // Формируем URL в стиле CORE
+        // Получаем значения годов
+        const yearStart = yearStartInput.value;
+        const yearEnd = yearEndInput.value;
+
+        // Формируем URL
         let url = window.location.pathname + '?';
         const title = searchInput.value;
-        const page = pageNumber !== null ? pageNumber : 1; // Используем переданный номер страницы или 1
+        const page = pageNumber !== null ? pageNumber : 1;
 
         if (title) {
             url += 'q=' + encodeURIComponent(title);
@@ -151,6 +158,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         url += '&page=' + encodeURIComponent(page);
+
+        // Добавляем параметры годов
+        if (yearStart) {
+            url += '&year_start=' + encodeURIComponent(yearStart);
+        }
+        if (yearEnd) {
+            url += '&year_end=' + encodeURIComponent(yearEnd);
+        }
 
         window.location.href = url;
     }
