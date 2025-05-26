@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Поиск научных публикаций</title>
     <link rel="stylesheet" href="{% static 'deps/css/home.css' %}">
+
 </head>
 <body>
 <header>
@@ -51,10 +52,16 @@
 
             <!-- Расширенные поля -->
             <div id="advancedFields" class="advanced-fields">
-                <div class="form-group">
+                <!-- Контейнер для полей авторов -->
+                <div class="form-group" id="authorsContainer">
                     <label for="id_authors">Авторы:</label>
-                    <input type="text" name="authors" id="id_authors" value="{{ request.GET.authors }}" placeholder="Фамилия автора">
+                    <div class="author-field-container">
+                        <input type="text" name="authors[]" id="id_authors" value="{{ request.GET.authors }}" placeholder="Фамилия автора" class="author-input">
+                        <button type="button" class="remove-author-button">Удалить автора</button>
+                    </div>
+                    <button type="button" id="addAuthorBtn">Добавить автора</button>
                 </div>
+
                 <div class="form-group">
                     <label for="id_keywords">Ключевые слова:</label>
                     <input type="text" name="keywords" id="id_keywords" value="{{ request.GET.keywords }}" placeholder="Ключевые слова">
@@ -75,7 +82,13 @@
             <h2 class="results-title">
                 Результаты поиска:
                 "{{ search_query }}"
-                {% if request.GET.authors %} (автор: {{ request.GET.authors }}){% endif %}
+                {% if authors %}
+                    (авторы:
+                    {% for author in authors %}
+                        {{ author }}{% if not forloop.last %}, {% endif %}
+                    {% endfor %}
+                    )
+                {% endif %}
             </h2>
             <p class="results-count">Найдено публикаций: {{ total_results }}</p>
 

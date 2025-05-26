@@ -451,3 +451,70 @@ button:hover {
         width: 100%;
     }
 }
+
+
+ /* Стили для кнопки "Добавить автора" */
+        .form-group #addAuthorBtn {
+            background: none;
+            border: none;
+            color: #777;
+            cursor: pointer;
+            font-size: 0.9em;
+            padding: 0;
+            text-align: left;
+            display: inline-block;
+            transition: color 0.2s;
+            margin-top: 5px; /* Отступ сверху */
+            margin-bottom: 5px; /* Отступ снизу */
+        }
+        .form-group #addAuthorBtn:hover {
+            color: green;
+        }
+
+        /* Стили для контейнера поля автора */
+        .author-field-container {
+            margin-bottom: 10px; /* Отступ между полями авторов */
+            display: flex; /* Добавляем flex */
+            align-items: center; /* Выравниваем элементы по вертикали */
+        }
+
+        /* Стили для поля ввода автора */
+        .author-input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        /* Стили для кнопки "Удалить автора" */
+        .remove-author-button {
+            background: none;
+            border: none;
+            color: #777;
+            cursor: pointer;
+            font-size: 0.9em;
+            padding: 0;
+            text-align: left;
+            display: inline-block;
+            transition: color 0.2s;
+            margin-top: 5px; /* Отступ сверху от поля */
+            outline: none; /* Убираем рамку при фокусе */
+            margin-left: 10px; /* Добавляем отступ слева */
+            line-height: 1; /* Добавляем line-height */
+        }
+        .remove-author-button:hover {
+            color: #f44336; /* Красный цвет при наведении */
+            background: none; /* Убираем фон при наведении */
+        }
+        .remove-author-button:focus {
+            outline: none; /* Убираем рамку при фокусе */
+        }
+
+        /* Скрываем кнопку "Удалить автора" для первого поля */
+        #authorsContainer > .author-field-container:first-child .remove-author-button {
+            display: none;
+        }
+
+        /* Стили для form-group */
+        .form-group {
+            position: relative;
+        }
