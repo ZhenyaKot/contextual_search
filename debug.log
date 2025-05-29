@@ -3629,3 +3629,678 @@ Rendering template | Query: '' | Articles: 0 | Total results: 0
 "GET / HTTP/1.1" 200 3849
 "GET /static/deps/css/home.css HTTP/1.1" 304 0
 "GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\core_url.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Python_project\contextual_search\home\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+API results processed | Articles: 4 | Total: 224726
+Rendering template | Query: 'Physics' | Articles: 4 | Total results: 224726
+"GET /?q=Physics&page=1 HTTP/1.1" 200 16028
+API results processed | Articles: 4 | Total: 224726
+Rendering template | Query: 'Physics' | Articles: 4 | Total results: 224726
+"GET /?q=Physics&page=1 HTTP/1.1" 200 16028
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Not Found: /favicon.ico
+- Broken pipe from ('127.0.0.1', 57882)
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 7 | Total: 235
+Rendering template | Query: 'Physics' | Articles: 7 | Total results: 235
+"GET /?q=Physics&abstract=complementarity&page=1 HTTP/1.1" 200 25788
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 1 | Total: 2
+Rendering template | Query: 'Physics' | Articles: 1 | Total results: 2
+"GET /?q=Physics&abstract=complementarity%20hole%20stretched&page=1 HTTP/1.1" 200 7315
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 10 | Total: 6419
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6419
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 34380
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 2 | Total: 2
+Rendering template | Query: 'математика' | Articles: 2 | Total results: 2
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&abstract=%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%20081&page=1 HTTP/1.1" 200 11269
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request failed | Error: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22%20AND%20abstract:%22%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20081%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: ќшибка API: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22%20AND%20abstract:%22%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20081%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&abstract=%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20081&page=1 HTTP/1.1" 200 4514
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request failed | Error: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22%20AND%20abstract:%22%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20081%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: ќшибка API: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works?q=title:%22%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22%20AND%20abstract:%22%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20081%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'математика' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&abstract=%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20081&page=1 HTTP/1.1" 200 4513
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 2 | Total: 2
+Rendering template | Query: 'математика' | Articles: 2 | Total results: 2
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&abstract=%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20081&page=1 HTTP/1.1" 200 11271
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/css/home.css HTTP/1.1" 200 12003
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/css/home.css HTTP/1.1" 200 12003
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/css/home.css HTTP/1.1" 200 12003
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/css/home.css HTTP/1.1" 200 12003
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/css/home.css HTTP/1.1" 200 12003
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/css/home.css HTTP/1.1" 200 12003
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+"GET /static/deps/css/home.css HTTP/1.1" 200 12003
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/css/home.css HTTP/1.1" 200 12003
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+"GET /static/deps/css/home.css HTTP/1.1" 200 12003
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 2 | Total: 2
+Rendering template | Query: 'математика' | Articles: 2 | Total results: 2
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&abstract=%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20081&page=1 HTTP/1.1" 200 11985
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/css/home.css HTTP/1.1" 200 12003
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/css/home.css HTTP/1.1" 200 12003
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/css/home.css HTTP/1.1" 200 12003
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4101
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+"GET /static/deps/css/home.css HTTP/1.1" 200 12003
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 2 | Total: 2
+Rendering template | Query: 'математика' | Articles: 2 | Total results: 2
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&abstract=%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20081&page=1 HTTP/1.1" 200 11985
+API results processed | Articles: 6 | Total: 6
+Rendering template | Query: 'математика' | Articles: 6 | Total results: 6
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'abstract'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'abstract'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QueryDict' object has no attribute 'abstract'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'abstract'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\contextual_search\home\views.py", line 127, in search_view
+    return render(request, 'home/home.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 731, in resolve
+    arg_vals.append(arg.resolve(context))
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [abstract] in <QueryDict: {'q': ['математика'], 'authors': ['√оловчанська'], 'page': ['1']}>
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&authors=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0&page=1 HTTP/1.1" 500 420871
+API results processed | Articles: 2 | Total: 2
+Rendering template | Query: 'математика' | Articles: 2 | Total results: 2
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&authors=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0&abstract=%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20081&page=1 HTTP/1.1" 200 12198
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 10 | Total: 89
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 89
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'abstract'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'abstract'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QueryDict' object has no attribute 'abstract'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'abstract'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\contextual_search\home\views.py", line 127, in search_view
+    return render(request, 'home/home.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 731, in resolve
+    arg_vals.append(arg.resolve(context))
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [abstract] in <QueryDict: {'q': ['математика'], 'page': ['1'], 'year_start': ['2000'], 'year_end': ['2003']}>
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1&year_start=2000&year_end=2003 HTTP/1.1" 500 405474
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\contextual_search\home\views.py", line 127, in search_view
+    return render(request, 'home/home.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\defaulttags.py", line 961, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\defaulttags.py", line 961, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\defaulttags.py", line 961, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 481, in parse
+    raise self.error(token, e)
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 479, in parse
+    filter_expression = self.compile_filter(token.contents)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 597, in compile_filter
+    return FilterExpression(token, self)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 670, in __init__
+    raise TemplateSyntaxError(
+django.template.exceptions.TemplateSyntaxError: Could not parse some characters: request.GET.get|('authors', '')||urlencode
+"GET / HTTP/1.1" 500 263701
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 10 | Total: 6419
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 6419
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 34380
+API results processed | Articles: 10 | Total: 89
+Rendering template | Query: 'математика' | Articles: 10 | Total results: 89
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1&year_start=2000&year_end=2003 HTTP/1.1" 200 30962
+API results processed | Articles: 1 | Total: 1
+Rendering template | Query: 'математика' | Articles: 1 | Total results: 1
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&abstract=%D0%9F.01.05.00&page=1&year_start=2000&year_end=2003 HTTP/1.1" 200 7114
+API results processed | Articles: 6 | Total: 6
+Rendering template | Query: 'математика' | Articles: 6 | Total results: 6
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&authors=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0&page=1 HTTP/1.1" 200 24612
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+"GET /static/deps/css/home.css HTTP/1.1" 200 11796
+API results processed | Articles: 3 | Total: 3948
+Rendering template | Query: 'Physics' | Articles: 3 | Total results: 3948
+"GET /?q=Physics&authors=Wang&page=1 HTTP/1.1" 200 15108
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+API results processed | Articles: 4 | Total: 3948
+Rendering template | Query: 'Physics' | Articles: 4 | Total results: 3948
+"GET /?q=Physics&authors=Wang&page=2 HTTP/1.1" 200 18361
+C:\Python_project\contextual_search\home\templatetags\__init__.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4257
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4257
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+"GET /static/deps/css/home.css HTTP/1.1" 200 11796
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4257
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+"GET /static/deps/css/home.css HTTP/1.1" 200 11796
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4257
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+"GET /static/deps/css/home.css HTTP/1.1" 200 11796
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 2 | Total: 2
+Rendering template | Query: 'математика' | Articles: 2 | Total results: 2
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&authors=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0&abstract=%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20081&page=1 HTTP/1.1" 200 12329
+API results processed | Articles: 2 | Total: 2
+Rendering template | Query: 'математика' | Articles: 2 | Total results: 2
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&authors=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0&abstract=%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20081&page=1 HTTP/1.1" 200 12329
+API results processed | Articles: 6 | Total: 6
+Rendering template | Query: 'математика' | Articles: 6 | Total results: 6
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\utils\datastructures.py", line 84, in __getitem__
+    list_ = super().__getitem__(key)
+            ^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'abstract'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 875, in _resolve_lookup
+    current = current[bit]
+              ~~~~~~~^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\utils\datastructures.py", line 86, in __getitem__
+    raise MultiValueDictKeyError(key)
+django.utils.datastructures.MultiValueDictKeyError: 'abstract'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 885, in _resolve_lookup
+    current = getattr(current, bit)
+              ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'QueryDict' object has no attribute 'abstract'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+                      ^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'abstract'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\contextual_search\home\views.py", line 127, in search_view
+    return render(request, 'home/home.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\defaulttags.py", line 242, in render
+    nodelist.append(node.render_annotated(context))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\defaulttags.py", line 326, in render
+    return nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 1059, in render
+    output = self.filter_expression.resolve(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 731, in resolve
+    arg_vals.append(arg.resolve(context))
+                    ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 842, in resolve
+    value = self._resolve_lookup(context)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [abstract] in <QueryDict: {'q': ['математика'], 'authors': ['√оловчанська'], 'page': ['1']}>
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&authors=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0&page=1 HTTP/1.1" 500 420698
+C:\Python_project\contextual_search\home\templatetags\__init__.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4256
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4256
+"GET /static/deps/css/home.css HTTP/1.1" 200 11796
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 4256
+"GET /static/deps/css/home.css HTTP/1.1" 200 11796
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9411
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 6 | Total: 6
+Rendering template | Query: 'математика' | Articles: 6 | Total results: 6
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&authors=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0&page=1 HTTP/1.1" 200 26236
+API results processed | Articles: 2 | Total: 2
+Rendering template | Query: 'математика' | Articles: 2 | Total results: 2
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&authors=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0&abstract=%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20081&page=1 HTTP/1.1" 200 12320
+API results processed | Articles: 1 | Total: 1
+Rendering template | Query: 'математика' | Articles: 1 | Total results: 1
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&authors=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B0&abstract=%D0%96%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D0%BA%D0%B0%2C%20%D1%81%D1%82%D1%80%D0%B0%D1%85%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F%2C%20081&page=1&year_start=2018&year_end=2022 HTTP/1.1" 200 8474

@@ -1,29 +1,12 @@
 import logging
 import math
-
 import requests
 from django.shortcuts import render, redirect
 from dotenv import find_dotenv, load_dotenv
-
 from .core_url import build_core_search_url
 from .forms import SearchForm
 
 load_dotenv(find_dotenv())
-
-logger = logging.getLogger('core_search')
-
-
-import logging
-import math
-import requests
-from django.shortcuts import render, redirect
-from dotenv import find_dotenv, load_dotenv
-
-from .core_url import build_core_search_url
-from .forms import SearchForm
-
-load_dotenv(find_dotenv())
-
 logger = logging.getLogger('core_search')
 
 def parse_year(year_str):
@@ -66,9 +49,9 @@ def process_articles(results, authors_filter=None):
         processed.append(processed_article)
     return processed
 
-def search_core(title, authors=None, limit=100, offset=0, year_start: int = None, year_end: int = None):
+def search_core(title, authors=None, abstract: str = None, limit=100, offset=0, year_start: int = None, year_end: int = None):
     """Основная логика обработки API-запроса"""
-    url = build_core_search_url(title, authors, limit, offset, year_start, year_end)
+    url = build_core_search_url(title, authors, abstract, limit, offset, year_start, year_end)
     try:
         response = requests.get(url, timeout=30)
         response.raise_for_status()
@@ -88,8 +71,8 @@ def search_view(request):
     error = None
     search_query = request.GET.get('q', '').strip()
     authors = request.GET.getlist('authors')
+    abstract = request.GET.get('abstract', '').strip()
     page = request.GET.get('page', '1')
-
     year_start = parse_year(request.GET.get('year_start'))
     year_end = parse_year(request.GET.get('year_end'))
 
@@ -107,6 +90,7 @@ def search_view(request):
         api_response = search_core(
             search_query,
             authors=authors,
+            abstract=abstract,
             limit=10,
             offset=offset,
             year_start=year_start,
@@ -146,6 +130,7 @@ def search_view(request):
         'current_page': page_number,
         'total_results': total_results,
         'authors': authors,
+        'abstract': abstract,
         'error': error,
         'search_query': search_query,
         'has_previous': page_number > 1,
