@@ -518,3 +518,16 @@ button:hover {
         .form-group {
             position: relative;
         }
+
+.year-range {
+    display: flex; /* Размещаем элементы в строку */
+    align-items: center; /* Выравниваем элементы по вертикали */
+}
+.year-range label {
+    margin-right: 5px; /* Отступ между label и input */
+    white-space: nowrap; /* Предотвращаем перенос текста label */
+}
+.year-input {
+    width: 70px; /* Уменьшаем ширину input */
+    margin-right: 5px; /* Отступ между input */
+}

@@ -3246,3 +3246,386 @@ Rendering template | Query: 'Physics' | Articles: 5 | Total results: 133537
 API results processed | Articles: 4 | Total: 50748
 Rendering template | Query: 'Physics' | Articles: 4 | Total results: 50748
 "GET /?q=Physics&page=1&year_end=2003 HTTP/1.1" 200 15986
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+"GET /static/deps/css/home.css HTTP/1.1" 200 11733
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11733
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11733
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 7 | Total: 4963
+Rendering template | Query: 'Physics' | Articles: 7 | Total results: 4963
+"GET /?q=Physics&page=1&year_start=2002&year_end=2003 HTTP/1.1" 200 28511
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+API results processed | Articles: 3 | Total: 3
+Rendering template | Query: 'Physics' | Articles: 3 | Total results: 3
+"GET /?q=Physics&authors=Wang&authors=Zhang&page=1&year_start=2002&year_end=2003 HTTP/1.1" 200 17518
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&authors=Wang&authors=Zhang&page=1&year_start=20015&year_end=2003 HTTP/1.1" 200 4042
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+API results processed | Articles: 6 | Total: 326
+Rendering template | Query: 'Physics' | Articles: 6 | Total results: 326
+"GET /?q=Physics&authors=Wang&authors=Zhang&page=1&year_start=2015&year_end=2020 HTTP/1.1" 200 26790
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+API request failed | Error: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works/?q=title:%22Physics%22%20AND%20(authors:%22Wang%22%20AND%20authors:%22Fan%22)%20AND%20(yearPublished%3E=2015%20AND%20yearPublished%3C=2020)&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: Ошибка API: 429 Client Error: Too Many Requests for url: https://api.core.ac.uk/v3/search/works/?q=title:%22Physics%22%20AND%20(authors:%22Wang%22%20AND%20authors:%22Fan%22)%20AND%20(yearPublished%3E=2015%20AND%20yearPublished%3C=2020)&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'Physics' | Articles: 0 | Total results: 0
+"GET /?q=Physics&authors=Wang&authors=Fan&page=1&year_start=2015&year_end=2020 HTTP/1.1" 200 4346
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11733
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+"GET /static/deps/css/home.css HTTP/1.1" 200 11733
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+"GET /static/deps/css/home.css HTTP/1.1" 200 11733
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11733
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11733
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11733
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+"GET /static/deps/css/home.css HTTP/1.1" 200 11733
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11733
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11733
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11732
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+"GET /static/deps/css/home.css HTTP/1.1" 200 11732
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11732
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11732
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11732
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11732
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11732
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11732
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11732
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+"GET /static/deps/css/home.css HTTP/1.1" 200 11732
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11733
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11733
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\contextual_search\home\views.py", line 143, in search_view
+    return render(request, 'home/home.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\defaulttags.py", line 969, in do_if
+    nodelist = parser.parse(("elif", "else", "endif"))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 515, in parse
+    self.unclosed_block_tag(parse_until)
+  File "C:\Python_project\python_education\venv\Lib\site-packages\django\template\base.py", line 578, in unclosed_block_tag
+    raise self.error(token, msg)
+django.template.exceptions.TemplateSyntaxError: Unclosed tag on line 87: 'if'. Looking for one of: elif, else, endif.
+"GET / HTTP/1.1" 500 174947
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3785
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3785
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3785
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3785
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+API results processed | Articles: 7 | Total: 4963
+Rendering template | Query: 'Physics' | Articles: 7 | Total results: 4963
+"GET /?q=Physics&page=1&year_start=2002&year_end=2003 HTTP/1.1" 200 28511
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'математика на русском' | Articles: 0 | Total results: 0
+"GET /?q=%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC&page=1 HTTP/1.1" 200 4074
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+API results processed | Articles: 9 | Total: 24
+Rendering template | Query: 'физика и информатика' | Articles: 9 | Total results: 24
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%B8%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 28733
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API request failed | Error: 500 Server Error: Internal Server Error for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%B8%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+API error: Ошибка API: 500 Server Error: Internal Server Error for url: https://api.core.ac.uk/v3/search/works/?q=title:%22%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%B8%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0%22&limit=10&offset=0&apiKey=L6tE1T7OhQ80dzijFu9kqygBMfwPWAlI
+Rendering template | Query: 'физика и информатика' | Articles: 0 | Total results: 0
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%B8%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 4360
+API results processed | Articles: 9 | Total: 24
+Rendering template | Query: 'физика и информатика' | Articles: 9 | Total results: 24
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%B8%20%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0&page=1 HTTP/1.1" 200 28733
+API results processed | Articles: 9 | Total: 20
+Rendering template | Query: 'физика' | Articles: 9 | Total results: 20
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0&authors=%D0%92%D0%B0%D0%B1%D0%B8%D1%89%D0%B5%D0%B2%D0%B8%D1%87&page=1 HTTP/1.1" 200 34188
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'история древнего рима' | Articles: 0 | Total results: 0
+"GET /?q=%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B3%D0%BE%20%D1%80%D0%B8%D0%BC%D0%B0&authors=%D0%92%D0%B0%D0%B1%D0%B8%D1%89%D0%B5%D0%B2%D0%B8%D1%87&page=1 HTTP/1.1" 200 4125
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+API results processed | Articles: 8 | Total: 8
+Rendering template | Query: 'история древнего рима' | Articles: 8 | Total results: 8
+"GET /?q=%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D0%B4%D1%80%D0%B5%D0%B2%D0%BD%D0%B5%D0%B3%D0%BE%20%D1%80%D0%B8%D0%BC%D0%B0&page=1 HTTP/1.1" 200 24733
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0
+API results processed | Articles: 9 | Total: 278
+Rendering template | Query: 'history of ancient rome' | Articles: 9 | Total results: 278
+"GET /?q=%20history%20of%20ancient%20rome&page=1 HTTP/1.1" 200 31436
+API results processed | Articles: 10 | Total: 159
+Rendering template | Query: 'рим' | Articles: 10 | Total results: 159
+"GET /?q=%D1%80%D0%B8%D0%BC&page=1 HTTP/1.1" 200 39268
+Watching for file changes with StatReloader
+API results processed | Articles: 3 | Total: 3948
+Rendering template | Query: 'Physics' | Articles: 3 | Total results: 3948
+"GET /?q=Physics&authors=Wang&page=1 HTTP/1.1" 200 15108
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 200 11794
+"GET /static/deps/javascript/home.js HTTP/1.1" 200 9211
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3147
+"GET /user/register HTTP/1.1" 301 0
+"GET /user/register/ HTTP/1.1" 200 2761
+"GET /static/deps/css/registration.css HTTP/1.1" 200 2848
+"GET /static/deps/javascript/registration.js HTTP/1.1" 200 5331
+"GET /user/login/ HTTP/1.1" 200 1505
+"GET /user/login HTTP/1.1" 301 0
+"GET /user/login/ HTTP/1.1" 200 1505
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+Not Found: /home/
+"GET /home/ HTTP/1.1" 404 3129
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+API results processed | Articles: 0 | Total: 0
+Rendering template | Query: 'физика на русском' | Articles: 0 | Total results: 0
+"GET /?q=%D1%84%D0%B8%D0%B7%D0%B8%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%BC&page=1 HTTP/1.1" 200 4058
+API results processed | Articles: 7 | Total: 4963
+Rendering template | Query: 'Physics' | Articles: 7 | Total results: 4963
+"GET /?q=Physics&page=1&year_start=2002&year_end=2003 HTTP/1.1" 200 28511
+Watching for file changes with StatReloader
+Rendering template | Query: '' | Articles: 0 | Total results: 0
+"GET / HTTP/1.1" 200 3849
+"GET /static/deps/css/home.css HTTP/1.1" 304 0
+"GET /static/deps/javascript/home.js HTTP/1.1" 304 0

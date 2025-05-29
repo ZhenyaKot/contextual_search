@@ -71,13 +71,10 @@
                 </div>
 
                 <!--  Диапазон дат -->
-                <div class="form-group">
-                    <label for="id_year_start">Год начала публикации:</label>
-                    <input type="number" name="year_start" id="id_year_start" value="{{ request.GET.year_start }}" placeholder="Начальный год">
-                </div>
-                <div class="form-group">
-                    <label for="id_year_end">Год окончания публикации:</label>
-                    <input type="number" name="year_end" id="id_year_end" value="{{ request.GET.year_end }}" placeholder="Конечный год">
+                <div class="form-group year-range">
+                    <label for="id_year_start">Год публикации:</label>
+                    <input type="number" name="year_start" id="id_year_start" value="{{ request.GET.year_start }}" placeholder="Начальный год" class="year-input">
+                    <input type="number" name="year_end" id="id_year_end" value="{{ request.GET.year_end }}" placeholder="Конечный год" class="year-input">
                 </div>
             </div>
         </form>
